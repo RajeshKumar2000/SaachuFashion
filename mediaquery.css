@@ -3,20 +3,20 @@
     .header {
         background-color: #000;
         display: flex;
-        position: sticky;
-        top: 20px;
+/*         position: sticky;
+        top: 20px; */
         flex-wrap: nowrap;
         width: auto;
     }
     .header .social-medias{
-        position: sticky;
-        top: 20px;
+/*         position: sticky;
+        top: 20px; */
         padding: 10px 0 ;
         text-align: center;
     }
     .header .social-medias>a {
-        position: sticky;
-        top: 0;
+/*         position: sticky;
+        top: 0; */
         font-size: 10px;
         margin:10px 25px;
         text-decoration: none;
@@ -24,8 +24,8 @@
     }
 
     .header  ul {
-        position: sticky;
-        top: 0;
+/*         position: sticky;
+        top: 0; */
         box-sizing: border-box;
        display: flex;
        flex-wrap: wrap;
@@ -36,8 +36,8 @@
     }
 
     .header ul li a{
-        position: sticky;
-        top: 0;
+/*     position: sticky;
+    top: 0; */
     text-decoration: none;
     text-overflow: none;
     font-size: 15px;
@@ -172,7 +172,7 @@
     }
 /*Footer styling*/
 .footer {
-    background-color:var(--black);
+    background-color:var(--white);
     display:block;
     font-size: 15px;
     position: relative;
@@ -196,13 +196,13 @@
 /*Footer Timing*/
 .footer .timing {
     margin: 20px 0;
-    color: #FAF9F6;
+    color: var(--black);
 }
 
 .footer .timing h3 {
     font-size: 20px;
     margin: 15px 0;
-    color: darkmagenta;
+    color: #0000FF;
 }
 
 .timing p {
@@ -221,7 +221,7 @@
 .adddiv {
     display: block;
     align-items: center;
-    color: #FAF9F6;
+  color:var(--black);
 }
 
 .adddiv i {
@@ -246,7 +246,7 @@
 
 .footer .follow i {
     margin: 15px 15px;
-    color:#FAF9F6;
+    color:var(--black);
 
 }
 
