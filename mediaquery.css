@@ -181,7 +181,7 @@
 }
 
 .footer h1 {
-    color: #777070;
+    color: var(--dred);
 }
 
 .footer .logo {
